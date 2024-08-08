@@ -1,0 +1,49 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+</style>
+/* Esta es la hoja de estilo, box model 
+ main {
+       padding: 8rem 2 rem;
+       border: 10 px #ce0000 dotted;
+       margin: 5rem
+       border-radius 2rem;
+} */
+
+/* ejemplos de class id */
+
+.parrafo {
+    line-height: 1,5;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* Css grid, mi retìcula*/
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+header{
+    background-color: chocolate;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+main{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+/* Estilo imagen*/
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+#logo {
+
+}
